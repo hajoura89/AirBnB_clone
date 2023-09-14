@@ -17,7 +17,7 @@ from models.amenity import Amenity
 from models.review import Review
 
 
-class TestFileStorage_instantiation(unittest.TestCase):
+class _instantiation_FileStorage(unittest.TestCase):
     """Testing instantiation of the FileStorage class"""
 
     def _FileStorage_with_no_args(self):
@@ -37,7 +37,7 @@ class TestFileStorage_instantiation(unittest.TestCase):
         self.assertEqual(type(models.storage), FileStorage)
 
 
-class TestFileStorage_methods(unittest.TestCase):
+class _methods_FileStorage(unittest.TestCase):
     """Testing methods of the FileStorage class"""
 
     @classmethod

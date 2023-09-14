@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
 Unittests for models/review.py
-
 """
 import os
 import models
@@ -93,7 +92,7 @@ class _instantiation_review(unittest.TestCase):
             Review(id=None, created_at=None, updated_at=None)
 
 
-class _Dict_review(unittest.TestCase):
+class _dict_review(unittest.TestCase):
     """Testing to_dict method of the Review class"""
 
     def to_dict_type(self):
@@ -143,7 +142,7 @@ class _Dict_review(unittest.TestCase):
             rv.to_dict(None)
 
 
-class _Save_review(unittest.TestCase):
+class _save_review(unittest.TestCase):
     """Testing save method of the Review class"""
 
     @classmethod

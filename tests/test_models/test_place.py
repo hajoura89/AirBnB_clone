@@ -12,7 +12,7 @@ from time import sleep
 from models.place import Place
 
 
-class _Instantiation_place(unittest.TestCase):
+class _instantiation_place(unittest.TestCase):
     """Testing instantiation of the Place class"""
 
     def new_instance(self):
@@ -142,7 +142,7 @@ class _Instantiation_place(unittest.TestCase):
             Place(id=None, created_at=None, updated_at=None)
 
 
-class _Dict_place(unittest.TestCase):
+class _dict_place(unittest.TestCase):
     """Testing to_dict method of the Place class"""
 
     def to_dict_type(self):
@@ -192,7 +192,7 @@ class _Dict_place(unittest.TestCase):
             pl.to_dict(None)
 
 
-class _Save_place(unittest.TestCase):
+class _save_place(unittest.TestCase):
     """Testing save method of the Place class"""
 
     @classmethod
